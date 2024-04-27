@@ -1,0 +1,69 @@
+.space {
+  margin: 50px;
+}
+/* prepend */
+.prepend-container {
+  border: 1px solid black;
+}
+
+.new-prepend-section {
+  border: 5px solid blue;
+
+  /* border: 1px;
+  border-style: solid;
+  border-color: blue; */
+}
+/* append */
+.new-append-section {
+  border: 5px solid green;
+
+  /* border: 1px;
+    border-style: solid;
+    border-color: blue; */
+}
+/* insert adjacent html */
+.adjacent-ab-container {
+  border: 5px solid red;
+}
+.new-adjacent-ab-section {
+  background-color: lightblue;
+}
+
+.adjacent-ae-container {
+  border: 5px solid yellow;
+}
+
+.new-adjacent-ae-section {
+  background-color: lightpink;
+}
+
+.adjacent-bb-container {
+  border: 5px solid red;
+}
+.new-adjacent-bb-section {
+  background-color: lightgreen;
+}
+
+.adjacent-be-container {
+  border: 5px solid yellow;
+}
+
+.new-adjacent-be-section {
+  background-color: lightgreen;
+}
+/* before */
+#before_section_1 {
+  background-color: lightpink;
+}
+
+#before_section_2 {
+  background-color: lightblue;
+}
+/* before */
+#after_section_1 {
+  background-color: lightpink;
+}
+
+#after_section_2 {
+  background-color: lightblue;
+}

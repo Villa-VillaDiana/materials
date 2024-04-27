@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- using prepend-->
+    <h2>Prepend</h2>
+    <button type="button" onclick="prependSection()">Prepend Section</button>
+    <div class="prepend-container">
+      <div class="prepend-section">Prepend Section</div>
+    </div>
+    <!-- add space -->
+    <div class="space"></div>
+    <!-- using append -->
+    <h2>Append</h2>
+    <button type="button" onclick="appendSection()">Append Button</button>
+    <div class="append-container">
+      <div class="append-section">Append Section</div>
+    </div>
+    <!-- add space -->
+    <div class="space"></div>
+    <!-- insert adjacent html using afterbegin -->
+    <h2>Insert Adjacent HTML</h2>
+    <button type="button" onclick="insertAdjacentSectionAB()">
+      Insert Adjacent Afterbegin
+    </button>
+    <div class="adjacent-ab-container">
+      <div class="adjacent-ab-section">Adjacent Section</div>
+    </div>
+    <!-- add space -->
+    <div class="space"></div>
+    <!-- insert adjacent html using afterend -->
+    <button type="button" onclick="insertAdjacentSectionAE()">
+      Insert Adjacent Afterend
+    </button>
+    <div class="adjacent-ae-container">
+      <div class="adjacent-ae-section">Adjacent Section</div>
+    </div>
+    <!-- add space -->
+    <div class="space"></div>
+    <!-- insert adjacent html using beforebegin -->
+    <button type="button" onclick="insertAdjacentSectionBB()">
+      Insert Adjacent Beforebegin
+    </button>
+    <div class="adjacent-bb-container">
+      <div class="adjacent-bb-section">Adjacent Section</div>
+    </div>
+    <!-- add space -->
+    <div class="space"></div>
+    <!-- insert adjacent html using beforeend -->
+    <button type="button" onclick="insertAdjacentSectionBE()">
+      Insert Adjacent Beforeend
+    </button>
+    <div class="adjacent-be-container">
+      <div class="adjacent-be-section">Adjacent Section</div>
+    </div>
+    <!-- add space -->
+    <div class="space"></div>
+    <h2>CloneNode</h2>
+    <button type="button" onclick="clone()">Clone Input</button>
+    <div class="clone-container">
+      <input type="text" class="clone-input" />
+    </div>
+    <!-- add space -->
+    <div class="space"></div>
+    <!-- before -->
+    <h2>Before</h2>
+    <button type="button" onclick="oneBefore2()">1 Before 2</button>
+    <button type="button" onclick="twoBefore1()">2 Before 1</button>
+    <div class="before-container">
+      <div class="before-section" id="before_section_1">Element 1</div>
+      <div class="before-section" id="before_section_2">Element 2</div>
+    </div>
+    <!-- add space -->
+    <div class="space"></div>
+    <!-- after -->
+    <h2>After</h2>
+    <button type="button" onclick="oneAfter2()">1 After 2</button>
+    <button type="button" onclick="twoAfter1()">2 After 1</button>
+    <div class="after-container">
+      <div class="after-section" id="after_section_1">Element 1</div>
+      <div class="after-section" id="after_section_2">Element 2</div>
+    </div>
+    <!-- add space -->
+    <div class="space"></div>
+    <!-- after -->
+    <h2>Remove</h2>
+    <div class="remove-container">
+      <div class="remove-section">
+        <button onclick="remove(this)">Remove</button>
+      </div>
+      <div class="remove-section">
+        <button onclick="remove(this)">Remove</button>
+      </div>
+      <div class="remove-section">
+        <button onclick="remove(this)">Remove</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
